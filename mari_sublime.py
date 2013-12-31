@@ -24,6 +24,7 @@ class MariCommand(sublime_plugin.TextCommand):
 			filePath = self.view.file_name()
 			if filePath is None:
 				sublime.error_message("Save file")
+				return
 
 			if self.view.is_dirty():
 				sublime.error_message("Save changes")
