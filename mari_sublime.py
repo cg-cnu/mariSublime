@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import sublime, sublime_plugin
 from telnetlib import Telnet
 
