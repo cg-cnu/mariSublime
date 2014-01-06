@@ -1,5 +1,7 @@
 # Mari Sublime #
-Execute selected or the whole .py file from sublime in mari.
+Execute selected code snippets or the whole .py file from sublime in mari.
+
+<br> Sublime2 compatible
 
 ## Installation ##
 <br> Download the zip file and extract the archive.
@@ -8,10 +10,11 @@ Execute selected or the whole .py file from sublime in mari.
 
 ## Usage ##
 <br> Select a code snippet and press ctrl + m. 
-<br> The selected snippet will be executed in mari.
+<br> Only the selected snippet will be executed in mari.
 <br> Deselect everything and press ctrl + m.
 <br> The whole file will be executed in mari. 
 
 ## Acknowledgements ##
 <br> https://github.com/justinfx/MayaSublime
-<br> https://github.com/poifox/sublime-blender
+<br> https://github.com/svenfraeys/SublimeBlender
+<br> http://net.tutsplus.com/tutorials/python-tutorials/how-to-create-a-sublime-text-2-plugin/

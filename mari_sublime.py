@@ -14,7 +14,7 @@ class MariCommand(sublime_plugin.TextCommand):
 			return
 		
 		selections = self.view.sel()
-		commands = []
+		snips = []
 		selSize = 0
 		
 		for sel in selections:
@@ -37,10 +37,10 @@ class MariCommand(sublime_plugin.TextCommand):
 		
 		else:
 			for sel in selections:
-				snips.extend( self.veiw.substr(sel).splitlines() )
+				snips.extend( self.view.substr(sel).splitlines() )
 		
 		cmd = str('\n'.join(snips))
 		
-		connection.write(message)
+		connection.write(cmd)
 		connection.write("\x04")
 		connection.close()
