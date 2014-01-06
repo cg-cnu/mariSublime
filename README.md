@@ -8,7 +8,7 @@ Execute selected or the whole .py file from sublime in mari.
 
 ## Usage ##
 <br> Select a code snippet and press ctrl + m. 
-<br> Only the selected snippet will be executed in mari.
+<br> The selected snippet will be executed in mari.
 <br> Deselect everything and press ctrl + m.
 <br> The whole file will be executed in mari. 
 
