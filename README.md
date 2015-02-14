@@ -8,6 +8,10 @@ Execute selected code snippets or the whole .py file from sublime in mari.
 <br> In sublime go to Preferences > Browse Packages.
 <br> Place the extracted folder in the sublime packages folder.
 
+## Enable Command Port in mari ##
+<br> User this command to toggle command port in mari
+<br> mari.app.enableCommandPort( not ( mari.app.commandPortEnabled() ) )
+
 ## Usage ##
 <br> Select a code snippet and press ctrl + m. 
 <br> Only the selected snippet will be executed in mari.
