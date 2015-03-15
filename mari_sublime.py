@@ -41,6 +41,11 @@ class MariCommand(sublime_plugin.TextCommand):
 		
 		cmd = str('\n'.join(snips))
 		
-		connection.write(cmd.encode(encoding='UTF-8'))
-		connection.write("\x04".encode(encoding='UTF-8'))
-		connection.close()
+		if int(sublime.version()) < 3000:
+			connection.write(cmd)
+			connection.write("\x04")
+			connection.close()
+		else:
+			connection.write(cmd.encode(encoding='UTF-8'))
+			connection.write("\x04".encode(encoding='UTF-8'))
+			connection.close()
