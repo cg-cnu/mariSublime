@@ -1,7 +1,7 @@
 # Mari Sublime #
 Execute selected code snippets or the whole .py file from sublime in mari.
 
-<br> Sublime3 compatible
+<br> Sublime 2 & 3 compatible
 
 ## Installation ##
 <br> Download the zip file and extract the archive.
