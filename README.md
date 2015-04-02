@@ -22,3 +22,6 @@ Execute selected code snippets or the whole .py file from sublime in mari.
 <br> https://github.com/justinfx/MayaSublime
 <br> https://github.com/svenfraeys/SublimeBlender
 <br> http://net.tutsplus.com/tutorials/python-tutorials/how-to-create-a-sublime-text-2-plugin/
+
+## Updates ##
+<br> seperated logic in a module to use as a library
