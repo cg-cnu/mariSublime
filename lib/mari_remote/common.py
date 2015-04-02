@@ -41,3 +41,8 @@ class MariRemote(object):
             connection.write("\x04".encode(encoding='UTF-8'))
 
         connection.close()
+
+    def construct_open_port_code(self):
+        """return string that is needed for mari to open a port
+        """
+        return """mari.app.enableCommandPort( not ( mari.app.commandPortEnabled() ) )"""
