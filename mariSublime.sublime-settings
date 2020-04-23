@@ -1,0 +1,8 @@
+{
+
+	// Mari commandPort HOST name (127.0.0.1, ...)
+	"host": "127.0.0.1",
+
+	// Mari commandPort
+	"port" : 7002,
+}
