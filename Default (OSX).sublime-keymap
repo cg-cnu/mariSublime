@@ -1,5 +1,5 @@
 [
 	{
-		"keys": ["ctrl+m"], "command": "mari"
+		"keys": ["ctrl+m"], "command": "send_to_mari"
 	}
 ]
