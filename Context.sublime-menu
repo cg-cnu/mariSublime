@@ -1,0 +1,7 @@
+[
+    {"id": "end"},
+    {
+    	"command": "send_to_mari",
+    	"caption": "Send to Mari"
+    }
+]

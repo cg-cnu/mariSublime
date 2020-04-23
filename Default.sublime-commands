@@ -1,0 +1,36 @@
+[
+    {
+        "caption": "Mari: Send to Mari",
+        "command": "send_to_mari"
+    },
+    {
+        "caption": "Preferences: Mari Settings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/mariSublime/mariSublime.sublime-settings"}
+        },
+    {
+        "caption": "Preferences: Mari Key Bindings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/mariSublime/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: Mari Key Bindings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/mariSublime/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: Mari Key Bindings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/mariSublime/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    }
+]
