@@ -34,8 +34,8 @@ icon](https://user-images.githubusercontent.com/2767425/80058701-22323f00-8569-1
 
 ### In sublime
 
-- Select a code snippet and press ctrl + shift + m. Selected snippet will be executed in Mari.
-- _ctrl+shift+m_ with out selection will execute the whole file.
+- Select a code snippet and press "ctrl+enter". Selected snippet will be executed in Mari.
+- _ctrl+enter_ with out selection will execute the whole file.
 
 ## Acknowledgements
 
