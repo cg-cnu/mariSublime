@@ -50,7 +50,7 @@ class MariRemote:
         connection.close()
 
 
-class send_to_mariCommand(sublime_plugin.TextCommand):
+class SendToMariCommand(sublime_plugin.TextCommand):
     """send to Mari
     """
 

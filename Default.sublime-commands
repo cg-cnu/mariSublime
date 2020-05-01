@@ -1,7 +1,7 @@
 [
     {
         "caption": "Mari: Send to Mari",
-        "command": "send_to_mari"
+        "command": "SendToMari"
     },
     {
         "caption": "Preferences: Mari Settings",
