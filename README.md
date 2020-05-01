@@ -12,7 +12,7 @@ _Sublime 2 & 3 compatible_
 ### PackageControl
 
 - In Sublime Text, _ctrl+shit+p_ > _Package Control: Install Package_
-- Search for _mariSublime_
+- Search for _Mari_
 
 ### Manual
 
@@ -32,10 +32,10 @@ _Sublime 2 & 3 compatible_
 icon](https://user-images.githubusercontent.com/2767425/80058701-22323f00-8569-11ea-9da2-43586931d9e2.png)
   enabled in the lower left corner.
 
-## Usage
+### In sublime
 
-- Select a code snippet and press ctrl + m. Selected snippet will be executed in mari.
-- _ctrl+m_ with out any selection will execute the whole file.
+- Select a code snippet and press ctrl + shift + m. Selected snippet will be executed in Mari.
+- _ctrl+shift+m_ with out selection will execute the whole file.
 
 ## Acknowledgements
 
